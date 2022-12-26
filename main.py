@@ -17,8 +17,6 @@ from sensor.utils.main_utils import load_object
 from fastapi.middleware.cors import CORSMiddleware
 import os
 
-
-
 app = FastAPI()
 origins = ["*"]
 
@@ -29,7 +27,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 @app.get("/", tags=["authentication"])
 async def index():
