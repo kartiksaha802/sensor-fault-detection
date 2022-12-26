@@ -17,8 +17,6 @@ from sensor.utils.main_utils import load_object
 from fastapi.middleware.cors import CORSMiddleware
 import os
 
-
-
 app = FastAPI()
 origins = ["*"]
 
