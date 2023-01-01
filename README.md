@@ -1,4 +1,4 @@
-#Air pressure system failures in Scania trucks
+# Air pressure system failures in Scania trucks
 Predict failures and minimize costs based on sensor readings
 The dataset consists of data collected from heavy Scania 
  trucks in everyday usage. The system in focus is the 
@@ -10,11 +10,11 @@ for a specific component of the APS system.
 The negative class consists of trucks with failures 
 for components not related to the APS. The data consists 
 of a subset of all available data, selected by experts.
-#Number of Instances: 
-    The training set contains 60000 examples in total in which 
+# Number of Instances: 
+     The training set contains 60000 examples in total in which 
      59000 belong to the negative class and 1000 positive class. 
      The test set contains 16000 examples.
 # Number of Attributes: 171 
-#Attribute Information:
+# Attribute Information:
 The attribute names of the data have been anonymized for proprietary reasons.
 
