@@ -13,6 +13,7 @@ from sensor.entity.artifact_entity import ModelEvaluationArtifact
 from sensor.components.model_pusher import ModelPusher
 from sensor.constants.s3_bucket import TRAINING_BUCKET_NAME
 from sensor.constants.training_pipeline import SAVED_MODEL_DIR
+from sensor.cloud_storage.s3_syncer import S3Sync
 class TrainPipeline:
     is_pipeline_running=False
 
